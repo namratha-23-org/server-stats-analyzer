@@ -3,7 +3,7 @@ name: Jira Exporter Workflow
 on:
   workflow_dispatch:    # <-- manual trigger support
   schedule:
-    - cron: '0 */1 * * *'  # runs every hour
+    - cron: '0 */1 * * *'  # runs every hour update test 1
 
 jobs:
   run-integration:
